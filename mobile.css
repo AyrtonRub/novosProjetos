@@ -1,0 +1,161 @@
+  * {
+    box-sizing: border-box;
+   }
+
+   :root {
+     --primaryColor:#521A67;
+   }
+   
+   .corpo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   .larguraMaxima {
+    width: 90%;
+    margin: 0 auto;
+   }
+
+   .header-container {
+    background-image: linear-gradient(to top, var(--primaryColor) 78%, white 22%) ;
+   }
+
+   .logoContainer {
+    background-color: white;
+   }
+
+   .logo-header img {
+        display: block;
+        margin: 0 auto;
+   }
+
+   .iconHeader {
+    text-align: center;
+    font-size: 4.5em;
+    color: white;
+    margin-top: .1em;
+    display: none;
+   }
+
+   .navgacao {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+   }
+
+   .navgacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .navgacao ul  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+   }
+
+   .navgacao ul {
+    width: 100%;
+   }
+
+   .navgacao ul > li {
+    padding: 1rem;
+   }
+
+   .navgacao ul > li:hover {
+    background-color: #a583b15b;
+   }
+
+   .descubraBox {
+     text-align: center;
+     padding: 1em;
+   }
+
+   .descubraBox h2 {
+     padding: .5em;
+     color: var(--primaryColor);
+   }
+
+   .descubraBox p {
+     line-height: 1.5em;
+     margin-bottom: 1rem;
+     color: var(--primaryColor);
+     font-weight: 500;
+   }
+
+   .botao {
+     background-color: #5AC4C5;
+     padding: .9rem 2em;
+     border-radius: 3px;
+     text-decoration: none;
+     color: white;
+     display: block;
+     width: 10rem;
+     margin:auto;
+   }
+
+   .containerAcomodocao {
+    background-color: #F7F5F7;
+   }
+
+   .cardsAcomodacao {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2em;
+     flex-direction: column;
+     margin-bottom: 2em;
+   }
+
+   .cardsAcomodacaoBox h3 {
+     padding: 1em;
+     color: var(--primaryColor);
+     text-transform: uppercase;
+   }
+
+   .cardsAcomodacaoBox p,
+   .rodaPe p {
+     line-height: 1.5em;
+   }
+
+   .iconRam i {
+     color: var(--primaryColor);
+     font-size: 2.5em;
+   }
+
+   .containerCards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+   }
+
+  .cardsBoxText p {
+    text-align: justify;
+  }
+
+  .cardsBoxText h3 {
+    text-transform: uppercase;
+    color: var(--primaryColor);
+    font-weight: normal;
+    margin: 0;
+  }
+
+  .cardsBoxImg img  {
+     width: 100%;
+  }
+
+ .rodaPe {
+  background-color: #23313C;
+  margin-top: 2em;
+  padding: 2em 0;
+  text-align: center;
+  color: rgba(102, 130, 151, 0.494);
+  font-weight: 500;
+ }
+
+
+  

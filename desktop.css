@@ -1,0 +1,14 @@
+@media screen and (min-width: 65.75em) {
+    .descubraBox {
+        background: linear-gradient(to top, var( --primaryColor) 50%, transparent), url(images/fundo.jpg) no-repeat  top;
+        background-size: cover;
+        height: 31.25em;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    .descubraBoxText {
+        width: 37.5em;
+    }
+}

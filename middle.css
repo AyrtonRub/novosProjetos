@@ -1,0 +1,74 @@
+@media screen and (min-width:45.0625em) {
+    
+    .header-container {
+        background-image: none;
+        background-color: white;
+        display: block;
+    }
+    
+    .headerContainerBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navgacao ul {
+        flex-direction: row;
+    }
+
+    .navgacao ul a {
+        color: var(--primaryColor);
+    }
+
+    .descubraBox {
+        background-color: var(--primaryColor);
+        color: white;
+        display: block;
+    }
+
+    .iconHeader {
+        display: contents;
+    }
+
+    .iconHeader a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .iconHeader i:hover {
+        transform: translateX(5px);
+        transition:  transform .5s ease-in-out;
+    }
+
+    .descubraBox h2 {
+        padding: 1em;
+        color: white;
+    }
+
+    .descubraBox p {
+        line-height: 1.5em;
+        margin-bottom: 2rem;
+        color: white;
+    }
+
+    .cardsAcomodacao {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cardsAcomodacaoBox {
+        flex-basis: calc(50% - 2em);
+        flex-grow: 1;
+    }
+
+    .containerCards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .cardsBox {
+        display: flex;
+        gap: 1em;
+    }
+
+} 
