@@ -21,6 +21,11 @@
       margin: 0 auto;
    }
 
+   .logo-header {
+      display: block;
+      margin: 0 auto;
+   }
+
    .navegacao {
       background-color: var(--primaryColor);
       padding: 0;
