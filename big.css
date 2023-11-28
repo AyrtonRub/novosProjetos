@@ -1,9 +1,5 @@
 @media screen and (min-width: 75em) {
 
-    .larguraMaxima {
-        max-width:93.75em;
-    }
-
     .descubraBox {
         background: linear-gradient(to top, var( --primaryColor) 5%, transparent), url(images/fundo.jpg) no-repeat  top;
         background-size: cover;

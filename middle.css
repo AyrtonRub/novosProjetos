@@ -1,22 +1,21 @@
-@media screen and (min-width:45.0625em) {
+@media screen and (min-width:46.4375em) {
     
-    .header-container {
-        background-image: none;
-        background-color: white;
-        display: block;
-    }
-    
-    .headerContainerBox {
+   
+    .header-container{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .navgacao ul {
-        flex-direction: row;
+    .navegacao {
+        background-color: initial;
     }
 
-    .navgacao ul a {
+    .navegacao li {
+        display: inline-block;
+    }
+
+    .navegacao a {
         color: var(--primaryColor);
     }
 
