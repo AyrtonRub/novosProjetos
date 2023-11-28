@@ -17,6 +17,12 @@
 
     .navegacao a {
         color: var(--primaryColor);
+        transition: all .5s;
+    }
+
+    .navegacao a:hover {
+        background-color: color-mix(in srgb, var(--primaryColor), white 80%);
+        border-radius: 5px;
     }
 
     .descubraBox {
